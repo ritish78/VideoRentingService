@@ -1,0 +1,90 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/yellow gradient.jpg');
+    background-position: center;
+}
+section {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('Images/circuit_board.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.section2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .section2 .container {
+        width: 45vw;
+        height: 66vh;
+    }
+.content h2 {
+    font-family: 'Pacifico',cursive;
+    font-size: xx-large;
+    padding-left: 7vw;
+    margin-left: 11vw;
+    color: cyan;
+}
+
+.content input[type=text], input[type=password] {
+    height: 30px;
+    border: 0;
+    margin-top: 2.5vh;
+    margin-left: 14vw;
+    border-radius: 20px;
+}
+
+.content input[placeholder] {
+    font-size: 1.4vw;
+    padding-left: 3%;
+    font-family: 'Modak','cursive';
+}
+
+.content .lbl {
+    font-size: large;
+    font-family: 'Pacifico',cursive;
+    margin-left: 20vw;
+    color: orangered;
+    border: dotted;
+    border-color: antiquewhite;
+}
+.content input[type=submit] {
+    box-shadow: inset 0px 39px 0px -24px #e67a73;
+    background-color: #e4685d;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20vw;
+    margin-top: 2vh;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #b23e35;
+}
+
+.myButton:hover {
+    background-color: #eb675e;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
